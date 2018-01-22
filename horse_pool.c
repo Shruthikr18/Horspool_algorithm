@@ -16,7 +16,10 @@ char *a=(char *)(malloc(sizeof(char)*1000000));
 	m=strlen(b);
     int* table=shift(b,m);
     int pos=horse_pool(b,m,a,n,table,size);
-    printf("\n%d",pos+1);
+	if  (pos+1==0)
+		printf("\nnot found\n");
+	else
+    		printf("\nfound at position %d\n",pos+1);
     return 0;
 }
 int* shift(char* b,int m)
