@@ -5,5 +5,7 @@ string matching algorithm
 
 >>enter the pattern
 
-it gives position of the first occurance 
-uncomment another print inside shigt funtion to see the shift table
+it gives position of the first occurance of the pattern in the string.
+non zero-
+
+uncomment another print inside shift funtion to see the shift table
